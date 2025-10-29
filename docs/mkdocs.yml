@@ -1,0 +1,44 @@
+site_name: "Before Day Zero"
+site_description: "A founder's guide to startup preparation"
+site_author: "Sagar Udasi"
+
+# site_url: <fill it later while hosting>
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - css/extra.css
+
+theme:
+  name: material
+
+  palette: 
+  # Palette toggle for light mode
+  - scheme: default
+    toggle:
+      icon: material/brightness-3 
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    
+
+
+
