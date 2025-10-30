@@ -1,9 +1,39 @@
-.md-footer-meta {
-    display: none;
-}
-
 /* Hide the site name icon in the header */
 .md-header__button.md-logo img, 
 .md-header__button.md-logo svg {
     display: none;
+}
+
+/* Center all tables and add better styling */
+.md-typeset table:not([class]) {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Optional: Improve table appearance */
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    font-weight: bold;
+}
+
+.md-typeset table:not([class]) td, 
+.md-typeset table:not([class]) th {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Add hover effect for better readability */
+.md-typeset table:not([class]) tr:hover {
+    background-color: var(--md-accent-fg-color--transparent);
+}
+
+.centered-table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table !important;
 }

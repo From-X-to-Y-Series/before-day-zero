@@ -1,0 +1,68 @@
+/* Force print media styles */
+@media print, screen {
+  /* Page setup */
+  @page {
+    size: A4;
+    margin: 2cm 1.5cm;
+  }
+
+  /* Prevent content from being cut off */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Force page breaks before major headings */
+  h1 {
+    page-break-before: always;
+    margin-top: 0;
+  }
+
+  /* Don't break the first heading */
+  h1:first-child,
+  article > h1:first-of-type,
+  .md-content > h1:first-of-type {
+    page-break-before: avoid;
+  }
+
+  h2 {
+    page-break-before: auto;
+    page-break-after: avoid;
+  }
+
+  /* Avoid breaks inside elements */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  pre, blockquote, table, img, figure {
+    page-break-inside: avoid;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Ensure content is visible */
+  .md-content {
+    max-width: 100%;
+  }
+
+  /* ✅ Remove default browser header/footer (page numbers, URLs) */
+  @page {
+    @top-center {
+      content: none;
+    }
+    @bottom-center {
+      content: none;
+    }
+  }
+
+  html::before,
+  html::after,
+  body::before,
+  body::after {
+    content: none !important;
+  }
+}
