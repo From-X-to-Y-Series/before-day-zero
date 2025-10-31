@@ -1,196 +1,398 @@
-# The Beginning Of Great Things
+# The Great Game of Life
 
-Let's assume you want to get rich. *How would you do it?* Perhaps the best way to answer is by understanding *how the rich got rich*. 
+I had read somewhere that *in order to be good at something, treat it like a game.* My immediate thought was, *can I draw parallels between life and playing a strategy game?* I think maybe we can. The following analogy is by no means complete; we can keep adding details and draw finer and finer parallels to make the game plan a better simulation of the reality. The actual purpose is to understand the high-level dynamics of the play, so that it enables us to devise the strategy to play this *great game* a bit better. I call this as **The Great Game of Life**.  Imagine a game in the same genre of *Civilization*, *Age of Empires* or *Clash of Clans*, but more complex and rewarding. Fortunately, there is a lot of wisdom that I happened to unlock due to this comparative study. 
 
-Every year since 1982, Forbes magazine has published a list of the richest people. If we compare the 100 richest people in 1982 to the 100 richest in 2020, we notice some big differences[^1]. 
+Let's say the country in which you are born or choose to play becomes your map: a vast unpredictable playground where opportunities, constraints and competitors coexist. While you grow, you acquire a certain skillset *(via education)* to thrive in a particular kind of terrain. Each market or sector on the map is a kind of terrain with its own logic, strategy, difficulty, and rewards. You earn *resources* when you play wisely and lose when you don't. One of the most popular and commonly chased resource is *money* in this world, though it forms only one part of a large system of value. 
 
-| Method of Wealth Creation | 1982 | 2020 |
-| ------------------------  | ---- | ---- |
-| Inheritance | 60 | 27 |
-| Starting a Company | 40 | 56 |
-| Investing (Fund Management) | 0 | 17 |
+No one hands you the rulebook at the beginning. You learn by observing veterans, the players who have survived long enough to see the underlying mechanics, and by gaining experience yourself as you play along. Allow me to take you through each component of this game in slightly more detail. 
 
-The number of people getting rich by inheritance declined not because people stopped inheriting fortunes, but because more people started making them. In 1992, getting rich by investing in early stage companies was almost unheard of. Oil and real-estate companies formed the largest portion of companies. All this changed because of the technological shift that was brought by the internet. Wealth was created more through innovation, entrepreneurship and financial expertise.  
+## The Map
 
-So, the best bet to become rich in today's world would be *to start* or *invest in* a _**startup**_! 
+The world is a patchwork of terrains. There surely would be at least one terrain where you will survive better than the others based on your skills & knowledge that you have acquired, and that's your *natural habitat*. Playing this game outside your *natural habitat* increases the difficulty unnecessarily and might diminish the quality of your play. Possible analogies of the terrains could be as follows. 
 
-## What's a *Startup*?
+| Terrain Type | Features | Real World Equivalent  |
+| --- | --- | --- |
+| Mountains | Highly difficult to climb, requires specialized gear and high stamina, high risk of failure, high reward as the same height later prevents your competition from tapping in | Manufacturing, Energy, Infrastructure, Aerospace, Biotech, Pharmaceuticals, etc. |
+| Forests | Opaque, unstructured, hard to navigate, the biospace where majority of the species live | Unorganized sector, Local services, etc. | 
+| Plains | Fast moving, easy to traverse, low risk, competitive landscapes, scarce resources heavily contested by existing players | E-commerce, Retail, Consumption, Consumer Tech, etc. | 
+| Deserts | Empty, mostly depleted resources, some oases within | Print media, call centers, etc. | 
+| Oceans | Unknown & unexplored, the risk is navigation and creating your own currents, the first to chart a course claims immense value | New Categories like EVs in 2009, Crypto in 2016, AI in 2020, etc. | 
 
-A new business that is designed to scale fast is a *startup.* Millions of small businesses start every year: restaurants, barbershops, electronics or mobile phone shops, etc., but they are not startups because they don't scale.
+## The Game's Resources
+
+Every player plays with *five* resources: ***time, capital, health, reputation,*** *and* ***network.*** 
+
+We will define the game's *winning condition* more concretely by the end of this section, but in vague terms, the *goal* is to keep increasing all the five resources over a period of time, and *winning* happens when the composite score of all five resources is high. Having a very high value in one resource *(say capital)*, and very low score in other resources *(say health or reputation)* wouldn't satisfy the win condition. 
+
+What makes this game interesting is that if you have one resource in excess, you can always trade it for another resource.
+
+### Interconversion of Resources
+
+It's in common knowledge of people that we convert *time* to *capital* by doing a *job*, or *capital* to *health* by affording better healthcare, higher quality nutrition, and better lifestyle, and so on. Some people also know that they can convert their *capital* to *time* by hiring people, outsourcing work or automation, or *network* to *time* by asking help or quickly getting things done by someone they know who could do it within your network. But little do people know that *all five resources are interconvertible!*
 
-Economically, a startup is a way to compress your whole working life into a few years[^2]. Instead of working at a low intensity for forty years, you work as hard as you possibly can for four. This pays especially well in technology, where you earn a premium for working fast. 
+|    | Time | Capital | Health | Reputation | Network |
+| --- | ---- | ------- | ------ | ---------- | ------- |
+| **Time**    | - | Job | Rest, Sleep, Exercise & Recreational Activities | Personality & Consistency | Socializing |
+| **Capital** | Hiring, Outsourcing & Automation | [Compounds via Investments] | Healthcare, Nutrition & Lifestyle | PR, Marketing & Philanthropy | Events & Memberships |
+| **Health**  | Energy, Focus & Productivity | Productivity & Work Capacity | - | Appearance, Fitness & Vitality | Longevity | 
+| **Reputation** | Trust & Efficient Deals | Deals at Premium, Brand & Media | Mental well-being & Inner peace | - | Invitations & Access to Premium Groups | 
+| **Network** | Help & Delegation | Partnerships & Deals | Social Support & Information | Endorsements & Visibility | - |
+
+```mermaid
+flowchart LR
+    Time -- "Job" --> Capital 
+    Time -- "Rest, Sleep, Exercise & Recreational Activities" --> Health
+    Time -- "Personality & Consistency" --> Reputation
+    Time -- "Socializing" --> Network
 
-If you are a decent programmer in your mid-twenties, you can get a job of about &#8377;20 lakhs *(in India)*. This means you do at least &#8377;20 lakhs worth of work in a year for the company. One could probably do twice as many hours of work as a corporate employee and get twice as much work done in an hour with proper focus. You get another multiple of two when you eliminate the drag of all the middle managers and pointless meetings. There is another multiple of two possible assuming you are twice as smart as your job description expects you to be. Combine all these multipliers, the claim is that you could be 16-20 times more productive than in a random corporate job. So, the person worth &#8377;20 lakhs a year is worth &#8377;3.2 crores a year if you eliminate all the corporate nonsense. 
+    Capital -- "Hiring, Outsourcing & Automation" --> Time
+    Capital -- "Healthcare, Nutirition & Lifestyle" --> Health
+    Capital -- "PR, Marketing & Philanthropy" --> Reputation
+    Capital -- "Events & Memberships" --> Network
 
-Now, the claim is not that the productivity multiplier is in range 16-20. Because a company is solving a problem valuable enough, has tools which let employees perform better, has an established brand unlike a solo worker, etc. But the multiplier is certainly more than 10, and rarely as high as 100. Also, &#8377;3.2 crores a year is the limit case: the case where you enjoy nothing and work so hard that you endanger your health. So, there is a *conservation law* at work: if you want to make &#8377;1 crore, you have to endure &#8377;1 crore worth of pain. You can do that by spreading it in a span of 30 years, or compress all of it in 3 years. 
+    Health -- "Energy, Focus & Productivity" --> Time
+    Health -- "Prodcutivity & Work Capacity" --> Capital
+    Health -- "Appearance, Fitness & Vitality" --> Reputation
+    Health -- "Longevity" --> Network
 
-*But, how do I earn &#8377;100 crores? &#8377;1 crore a year seems too less to me!* Well, one crosses beyond a particular mark when they get lucky! Bill Gates, Elon Musk, Mark Zuckerberg, and a whole list of self-made billionaires, no doubt they are very smart and hardworking, but they also got extremely lucky! Steve Jobs became billionaire not because of Apple, but because of Pixar! Steve barely looked at Pixar; he was just too busy with his NeXT Technologies. The problem statement, the solution, the business model, everything was the work of the CEO, Lawrence Levy, and the core Pixar team. He just happened to be the beneficiary in the early stages. 
+    Reputation -- "Trust & Efficient Deals" --> Time
+    Reputation -- "Deals at Premium, Brand & Media" --> Capital
+    Reputation -- "Mental well-being & Inner peace" --> Health
+    Reputation -- "Invitiations & Access to Premium Groups" --> Network
 
-## How Important Is *Luck* To Be Rich?
+    Network -- "Help & Delegation" --> Time
+    Network -- "Partnerships & Deals" --> Capital
+    Network -- "Social Support & Information" --> Health
+    Network -- "Endorsements & Visibility" --> Reputation
+```
 
-The short answer is: *it is important.* 
+Before we get into the nitty-gritty details of these interconversions, we should reinforce our understanding of each of the resource. 
 
-Derek *(Veritasium)* has amazingly explained the role of luck in success in his video [*Why Being Delusional is a Superpower*](https://www.youtube.com/watch?v=3LopI4YeC4I)[^4]. However, what people often miss is that the impact of luck is not uniform. To earn &#8377;100 crores, you must be extremely luckier than earning &#8377;10 lakhs. Unfortunately, people tend to give too much importance to luck even before &#8377;10 lakhs mark or &#8377;1 crore mark. They believe things are often not in their control, or they can do nothing to change whichever situation they are in. This is *learned helplessness*[^3]. If one has picked this trait unintentionally, they must do deliberate practice to unlearn it if they really want to become rich.
+### Characteristics of Resources
 
-People who have studied *Probability Theory* or *Random Systems* understand that even when events are occurring randomly, there can be an inherent pattern or *distribution* that can be exploited. Even in *chaotic systems*, we can take averages to figure out the overall state in which the system is evolving into. If you understand the dynamics of luck, you can make yourself present at places where you have higher chances of getting lucky! 
+#### 01. Time
 
-This insinuates the question, *can we create our own luck? Can we do something different to be luckier than what we are today?* I would want to believe the answer to this question is *YES*. Because if luck is so important in life, I am very doubtful that nature/supreme being/holy spirits/god distributes it randomly. It is simply too precious of an entity to be given out just like that.  
+| | |
+| --- | --- |
+| **Nature** |  It is the only non-renewable resource. You can compound capital, rebuild health, repair reputation, and expand your network; but you can't buy back a single minute. It's the most symmetrically distributed resource: everyone gets 24 hours. Its rate is constant: everyday it passes at the same rate. You can't control its flow. |
+| **Risk** | Spending time on things that don't compound: bureaucracy, low-leverage work, or status games. |
+| **Symptoms of Shortfall** |  Burnout, backlog, feeling trapped. |
+| **Recovery** | Impossible to recover your own time. You can only allocate future time better. Trade capital for time (hire, automate). Ruthlessly prioritize leverage. Don’t trade health or reputation for it; that’s debt you can’t repay.|
+| **Paul Graham's Insight** | Most people spend time as if it renews daily, like sunlight. It doesn’t. It only appears infinite because you haven’t yet seen the total sum of what’s left. |
+| **Naval's Insight** | Spend time on things that scale: code, technology, media, relationships, and ideas. |
 
-And we don't want to be lucky all the time. We just want to be luckier slightly more often than the average. I believe over a long period of time, this small edge will compound to bring monumental differences. So, *how to be lucky!?*
+#### 02. Capital
 
+| | |
+| --- | --- |
+| **Nature** | It's the most liquid resource that can be converted to other resources very efficiently. It expands non-linearly with leverage and linearly without it.  |
+| **Risk** | Capital loses its value with poor deployment. Pursuing capital at the cost of other resources leads to collapse: burnout, distrust, isolation. |
+| **Symptoms of Shortfall** |  Anxiety, financial stress, scarcity mindset.  |
+| **Recovery** | Trade time for capital, but through *skills* and not labor. Work in an area which you can scale it later. Avoid trading reputation (e.g., quick money schemes); the damage is irreversible. |
+| **Paul Graham's Insight** | You create capital when you make stuff that people want, provide it to them efficiently and at scale.  |
+| **Naval's Insight** | Use capital to buy leverage, not things. Use it to escape the treadmill, not decorate the cage.  |
 
-## How to be *Lucky*? 
+#### 03. Health
 
-According to Marc Andreessen, there are four kinds of luck[^5]. 
+| | |
+| --- | --- |
+| **Nature** | It's the *rate limiter* of all other conversions. When health drops, every other resource generation stalls. The machinery works as long as this resource doesn't fall below a certain threshold. |
+| **Risk** | It declines exponentially if neglected and only alarms after it is damaged beyond repair. Time becomes pain, not productivity. |
+| **Symptoms of Shortfall** |  Fatigue, chronic stress, low immunity, frequent illness. |
+| **Recovery** | Trade time and capital for health through nutrition, healthcare and rest. Don't overtrade capital: health isn't for sale; it's cultivated. |
+| **Paul Graham's Insight** | Your body is the most complex system. Bugs at one place cascade everywhere.  |
+| **Naval's Insight** | Treat health as infrastructure. You don't notice it until it fails; then it's all that matters. |
 
-### Chance I: Blind Luck
+#### 04. Reputation
 
-In *Chance I*, the good luck that occurs is completely accidental. It is pure blind luck that comes with no effort on our part. For example, winning the lottery. Right place, right time. Thank your stars for this kind of luck and run with it.
+| | |
+| --- | --- |
+| **Nature** | It's the slowest growing, most asymmetric, non-linear, and most fragile resource. It takes decades to grow, not everyone has it, provides amazing returns after it has grown substantially *(like leverage)* and can be lost in an afternoon. |
+| **Risk** | Once broken, it requires massive investment of time and capital to rebuild. |
+| **Symptoms of Shortfall** | Isolation from others, people distrust, & opportunities stall.  |
+| **Recovery** | Takes long-term authenticity and consistent alignment between word and action. Admit mistakes. Overdeliver quietly. Don't rush to buy it with PR; that's painting rust. Use capital to convert it to reputation at the later stages[^1]. |
+| **Paul Graham's Insight** | Your reputation is the checksum of your behavior over time. If you are a good person, your reputation over a long period of time will turn out to be good. If that's not the case, your behavior over time has been bad. Reputation is the report card of the behavior. |
+| **Naval's Insight** | Be so reliable that the world pre-commits to your future. Reputation is permissionless leverage. |
 
-### Chance II: Motion
+#### 05. Network
 
-In *Chance II*, luck comes from *activity*. This was the kind of luck American Inventor, Charles F. Kettering, had in mind when he said: *"Keep on going and chances are you will stumble on something, perhaps when you are least expecting it. I had never heard of anyone stumbling on something sitting down."* This luck encourages you to *stir up the pot*, and things will collide in fresh combinations and lets chance operate. 
+| | |
+| --- | --- |
+| **Nature** | It grows geometrically when one has positive-sum behavior. It also provides non-linear returns after the network has grown substantially. |
+| **Risk** | Network is not the number of people you know. Network is the number of people who are willing to help you when asked, people who support you and root for you. When connections are made with interest or agenda, the network decays. |
+| **Symptoms of Shortfall** | Limited perspective, loneliness despite too many people being around, lack of opportunity flow, poor luck. |
+| **Recovery** | Networks can be bought but they are short-lived. Long-term networks are built when you connect with people via curiosity and shared interests. |
+| **Paul Graham's Insight** | The best networks form around doing interesting things with smart people. |
+| **Naval's Insight** | Build relationships that outlast your startups. One of the metrics of success is being a kind of person others would want to bet on twice. |
 
-As an entrepreneur, if you happen to pick a good market, just being active in that market means that you are likely to stumble onto something. The advice to increase to enhance this kind of luck is to keep trying things. Stop analyzing, thinking, pondering; just do it! Have a bias to action.
 
-Marc says, *"The odds of a hit versus a miss do not increase over time. The periods of one’s career with the most hits will also have the most misses. So maximizing quantity — taking more swings at the bat — is much higher payoff than trying to improve one’s batting average."*
+### Interconversion Channel Efficiency
 
-### Chance III: Recognizing Good Fortune
+Now that we know the characteristics of each resource, and every resource can be converted to other four resources, the question is: *are all conversions equally efficient and viable?* Suppose I want *reputation*, so what is the most efficient way to build it? Should I trade *time* and build it long term with my personality and consistency? Or should I use *capital* *(assuming I have it enough)* and build it via PR or philanthropy? Or should I leverage my network and ask people who have built decent reputation to endorse me? Basically, I want to understand *what works best and what doesn't*.  
 
-In *Chance III*, luck is present, dressed in camouflage, and blind to most. However, someone uniquely equipped to observe it, visualize it conceptually, grasps its significance. It involves a special receptivity, discernment, and intuitive grasp of significance unique to one particular recipient. It gives you that flash of brilliant insight, an *'a ha'* moment that you get because you were able to put things together uniquely to recognize good fortune. Louis Pasteur characterized it when he said, *"Chance favors the prepared mind."*
+|    | Time | Capital | Health | Reputation | Network |
+| --- | ---- | ------- | ------ | ---------- | ------- |
+| **Time** | - | ***Low → High:*** From labor *(low)* to professional work *(medium)* to high-leverage work *(code, media, products, technology)*. | ***High***: Good sleep, exercise, cooking healthy food, and recreation is non-negotiable. | ***Very High:*** The most authentic path to durable reputation. | ***Medium:*** Genuinely giving time and help without immediate expectations build real bonds, but results are uncertain. |
+| **Capital**    | ***High***: Hiring, outsourcing, and automation can be one of the best uses of capital. | - | ***High***: Buys better healthcare, nutrition, safer environments, and better lifestyle. However, the returns are conditional to good sleep and exercise. | ***Low***: Capital buys PR, marketing, and philanthropy which creates popularity and visibility, but rarely the core asset of *trust*. ***Medium***: Slightly efficient in later stages, when needed to amplify the already-earned reputation. | ***Low***: Buys access to events and memberships, but not genuine connection or loyalty. Networks built on capital vanishes when capital dries up. |
+| **Health**     | ***Very High:*** One focused hour beats three tired ones. | ***High:*** Good health multiplies productivity and earning potential. | – | ***Low***: Appearing fit, energetic and young contributes to the reputation of discipline and perhaps reliability, but it's a weak second-order effect. | ***Medium:*** Health helps in maintaining a network. Chronic health issues often lead to social isolation. However, being healthy alone doesn't necessarily create networks. |
+| **Reputation** | ***High***: A strong reputation for competence and integrity makes deals and collaborations more efficient. Less time is wasted on negotiations, vetting, and bureaucracy. | ***Very High***: A strong reputation allows you to command premium prices, attract better deals, and get access to opportunities that are not available to others. | ***Medium to High***: A good reputation and the mental peace that comes with it reduce stress and anxiety, which are major contributors to poor health. This is an underappreciated but vital link. | - | ***High***: A strong reputation is a magnet. People want to connect with those they admire and trust. Your reputation precedes you and opens doors to high-quality networks. | 
+| **Network** | ***Medium***: This is the *"I know a guy"* effect for solving problems quickly, but the willingness and availability of *the guy* is always a bottleneck. | ***High***: Your network is a primary source of deals, partnerships, and investment opportunities. The *"network effect"* on capital is often non-linear. | ***Low***: Social connections provide emotional support and valuable information, but that's rarely the missing link. People need *time*, *capital* and *mental well-being* to be healthy. | ***High***: Earned endorsements and visibility from a trusted network are incredibly powerful. A recommendation from a respected person is worth more than a thousand ads. | - |
 
-When scientific discoveries happen by accident, this is the kind of luck mostly at play. The textbook example is Sir Alexander Fleming discovering penicillin *accidentally*. Some nine years before discovering penicillin, Fleming was suffering from a cold. His own nasal drippings had found their way onto a culture dish. He noted that something in his mucous had killed the bacteria. His experiments led him to discover the enzyme *lysozyme* but for reasons it couldn't be used for medical use. Fleming continued to search for alternatives that could kill the bacteria. 
 
-One day, he was at his work bench in the laboratory, made an observation, and his mental sequences then went something like this: (1) I see that a mold has fallen by accident into my culture dish; (2) the staphylococcal colonies residing near it failed to grow; (3) therefore, the mold must have secreted something that killed the bacteria; (4) this reminds me of a similar experience I had once before; (5) maybe this new *something* from the mold could be used to kill staphylococci that cause human infections. The discovery wasn't random. Fleming’s mind was exceptionally well-prepared. 
+### Phase Dynamics of Interconversions
 
-Aaron Levie, CEO of Box, says, *"To get ahead of the competition, startups need to focus on finding and creating unfair advantages — areas of their business that the competition simply can’t emulate. These advantages can manifest in the product, business model, and even how the business operates[^6]."* 
+I know you'd have probably guessed by now that the right strategy for *the great game of life* would involve focusing more on the efficient interconversion channels. However, one cannot take the advantage of a conversion channel at will. For example, one cannot decide in their 20s to convert *reputation* to *capital*, unless they've built that channel. Most people have bankable reputation during their 40s. It is exactly the same time when people try to reduce their dependence on converting *time* to *capital* because work-life balance is the priority then. I'm hinting that the viability of these channels *(the dynamics)* is different in 20s, 30s and 40s *(phases of life)*. 
 
-If you aspire to do something truly legendary, in business or any other field, you will discover that the biggest breakthroughs come from obsessively pursuing insights that defy conventional wisdom. In the startup world, this translates to having what PayPal founder and Facebook investor Peter Thiel calls a *secret* or what Benchmark co-founder Andy Rachleff would describe as an idea that is *non-consensus and right.*[^7] Finding secrets or coming up with an idea that is non-consensus and right very often involves Chance III. 
+A sample strategy of play could be as follows. 
 
-### Chance IV: Luck Seeking You
+#### Phase 1. The 20s
 
-In *Chance IV*, luck comes to you, unsought, because of your *specific knowledge*. We all have a distinctive individualized knowledge or skill. There is surely one thing we can do better than most around us. This is *specific knowledge*.
+At this stage, your best resources are *time* and *health*. You perhaps don't have *capital*, *reputation* and *network*. 
 
-By 2019, there were not a lot of people who knew *how to stream a live video online*. It was a very niche/specific skill. Then COVID happened. And a lot of startup founders found opportunities for online businesses where people could connect live, teach in real-time, entertainment services flourished, etc. However, these people realized they couldn't take the advantage of the opportunity themselves. They found these specific technical people and shared millions with them.  In simple words, if you are wonderful at something and people know about it, they will bring you their share of luck when they get lucky. 
+**Ideal Play:** You decide to convert your *time* to *capital* via professional or high-leverage work. *Health* is a very important long-term asset, so you give yourself enough time for rest, sleep, exercise and other recreational activities. You realize that it takes years to build strong reputation, so you start early. You invest your *time* and build it consistently via your personality. It's okay to not socialize a lot and invest *time* to build networks. Maybe a few friends and a loving partner would be all that you'll need for at least a decade or so. Whatever *capital* you earn, you invest a good amount of it on your health: you eat good & clean food, live a better lifestyle, etc. This enhanced *health* would save your *time* and *capital* by making you more productive.    
 
-Reputation is so important to get lucky in this category. You would want to make long-term relationships that people would want to get their deals done via you. Warren Buffet gets the first offers to buy out companies and invest in them because of the reputation that he has built over years. <br><br>
+```mermaid
+flowchart LR
+    Time -- "Skilled Job" --> Capital 
+    Time -- "Rest, Sleep, Exercise & Recreational Activities" --> Health
+    Time -- "Personality & Consistency" --> Reputation
+    Time -- "Genuine, Non-deliberate, Little efforts" --> Network
 
-So, in order to be luckier than average, we should
+    Capital -- "Healthcare, Nutirition & Lifestyle" --> Health
 
-1. Keep Moving. Keep Trying New Things. *(Chance II)* 
-2. Stay curious. Be prepared in terms of knowledge. Keep looking around and be receptive to camouflaged luck. We will get an *aha* moment soon. *(Chance III)*
-3. Be exceptional at something *(specific knowledge)*. According to Naval Ravikant[^8], this only happens *when you do what looks work to others, but looks like play to you*. And make sure that many people know about the specific knowledge we hold. Have reputation. *(Chance IV)* 
+    Health -- "Energy, Focus & Productivity" --> Time
+    Health -- "Prodcutivity & Work Capacity" --> Capital
+```
 
+**Some Common Pitfalls** 
 
-## Why Become *Rich*?
+1. You should not convert *time* to *capital* via labor *(blue collar jobs)*, because you wouldn't make enough capital to sustain your health or save enough to utilize capital in future to earn time and attain financial freedom. 
+2. Investing too much of *time* in building poor quality *networks* because of hidden agendas, fake personas, status games, etc., and little in making *capital*, *health* and *reputation*.   
+3. *Time* and *health* are the only two assets majority people have in 20s. Picking up unhealthy habits like alcohol, smoking, not getting enough sleep, eating junk food, neglecting health, etc., will cost a lot. It directly impacts the ability to work and the loop worsens. 
+4. Trying to make *capital* too early from *reputation* or *network*, without building them in sizeable amount first.
 
-The right reason to become *rich* is not to satisfy the greed, or feel power, or any kind of ego-satisfying superiority. It is to attain *freedom* where you no longer need to work for money. You'll still work, but you'll do what you like. You can wake up when you want, you can sleep when you want, you don't have a boss, that kind of freedom. 
+#### Phase 2. The 30s
 
-## How Much is *Rich*?
+You now have skills and some capital. Depending on the risk taking abilities, you can shift your goals from earning to multiplying. You start figuring out how to turn one unit of effort into several units of output. Your objective should be to build the systems that earn when you rest and slowly your reputation should get recognized within your circle. 
 
-One cannot set an upper limit to the question of how much money is enough. There is always more one can do with money. To define a proper limit, we must set our expectations. We are not aiming for luxury or ultra-luxury but for something more fundamental: *freedom*. We want to answer, *how much money do you need to lead a happy life without working for money?* Whatever you earn beyond this point can feed your luxury goals.
+**Ideal Play:** You continue to take care of your *health* and maintain the previous strategy. You start to experiment and invest your *time* in building parallel income streams. This often requires deploying *capital* at risk for some business idea or buying returns-yielding assets. You should start investing your *time* now in socializing and building *high-quality network*. Use this network to pump your *reputation* via endorsements and visibility. Do not try to encash the benefits in *capital* too early. Start taking advantage of your *reputation* to get efficient deals. 
 
-To live freely, you should own one decent house in a decent place in India. Also, you would not want to get tied down to your home location. So, you should have the ability to rent a place anywhere in India. You should have enough budget for eating well, pursuing hobbies, and other discretionary spendings. You also need a robust safety net for health and other unforeseen expenses. Now, let's assume that the money you have grows at the same rate as inflation erodes its purchasing power. So the real return on capital after inflation adjustment is zero. Our aim is to build a lump sum corpus today and withdraw 2.5% annually, so that it lasts for about 40 years. 
 
-A decent home in a decent location in India costs around &#8377;3 crores. Again, you can always find a better and more expensive home. However, we are setting the value for a liveable home, not a luxurious one. Rent for a second location should be around &#8377;50,000. Groceries, utilities, and household help is around &#8377;30,000. Discretionary spending like travel, hobbies, eating out and shopping can take &#8377;40,000. Health insurance and medical buffer is around &#8377;15,000. To round it up, add &#8377;15,000 of contingency and miscellaneous expenses. That makes **&#8377;1,50,000** a month = **&#8377;18,00,000** a year of expenses. Now, of course you would not spend this much; however do not forget the taxes. Assume whatever you saved by not spending from this amount went to taxes. 
+```mermaid
+flowchart LR
+    Time -- "Build Parallel Income Streams" --> Capital 
+    Time -- "Rest, Sleep, Exercise & Recreational Activities" --> Health
+    Time -- "Personality & Consistency" --> Reputation
+    Time -- "Socializing" --> Network
 
-$$
-\text{Total Freedom Corpus} = \text{Home Cost} + \text{Liquid Corpus}
-$$
+    Capital -- "Hiring, Outsourcing & Automation" --> Time
+    Capital -- "Healthcare, Nutirition & Lifestyle" --> Health
 
-$$
-\text{Total Freedom Corpus} = \text{₹}3 \text{ crores} + \frac{\text{₹}18 \text{ lakhs}}{2.5\%} = \text{₹}10.2 \text{ crores}
-$$
+    Health -- "Energy, Focus & Productivity" --> Time
+    Health -- "Prodcutivity & Work Capacity" --> Capital
 
-I am aware that no financially educated person would keep value as high as &#8377;10 crores in liquid cash. You will build some form of assets. However, the value to chase in terms of assets also happens to be &#8377;10 crores. 
+    Reputation -- "Trust & Efficient Deals" --> Time
 
-!!! tip "Our Definition of *Rich*"
+    Network -- "Endorsements & Visibility" --> Reputation
 
-    In India, **&#8377;10 crores** is the price of ultra-safe financial freedom. This is our definition of the *rich* and our target too. 
+    linkStyle 1,2,5,6,7 stroke:#cccccc,stroke-width:1px
+    linkStyle 0,3,4,8,9 stroke-width:1.5px
+```
 
+**Some Common Pitfalls**
 
+1. The capital should be spent on experiments in creating *value* and parallel income streams. People often spend up this capital early on for luxurious or above the means lifestyle. Some spend this capital to buy access/memberships to exclusive events and clubs. This kind of *network* is not healthy and short-lived. 
+2. Trading health for faster capital gains has been common pattern. 
+3. You will start to feel that you have a decent reputation in the system and your network is also growing. While you may reap some capital returns from it, but that shouldn't be the priority. It would only hamper the quality of network. Try to gain other non-capital benefits to begin with. 
 
-## How To Be *Rich*?
 
-Recall that programmer in their mid-twenties who was earning ₹20 lakhs a year. After taxes and bare-minimum expenses, they could save ₹1 lakh a month. Now assume they increase their monthly savings every year by 10% (assuming salary increments) and the invested money grows at a rate of 8% (very optimistic returns post-inflation adjustment). To reach the 10 crore mark, it takes ***19 years*** of savings!
+#### Phase 3. The 40s
 
-In reality, the number of years is far higher because of various events like marriage, raising a child, maybe a couple of foreign vacations, intermittent months of unemployment, etc. So, *how do we become rich quicker?*
+If you've played this game right for this long *(almost 2 decades)*, it's time to take advantage of your *reputation* and *network*. Your objective should be to convert *trust* into *freedom*; build teams, platforms, and people who outlast you; and simplify most of your decision-making processes. 
 
-### Understanding Value & Money
+**Ideal Play:** In an ideal scenario, you should now feel that you have enough *time*, because your dependency on the *time-to-capital* conversion is lowering. You start saving *time* by utilizing your network, and you start to reap *capital* benefits from *reputation* and *network*. You can reinvest this capital strategically into events, memberships, etc., to get you into certain groups which can put you in better position to get even further *capital* returns. 
 
-Society works on three concepts: *wants*, *value creation*, and *value exchange*.
+```mermaid
+flowchart LR
+    Time -- "(Low Dependency)" --> Capital 
+    Time -- "Rest, Sleep, Exercise & Recreational Activities" --> Health
+    Time -- "Personality & Consistency" --> Reputation
+    Time -- "Socializing" --> Network
 
-*Wants* drive everything. Why do farmers grow crops and vegetables? Because people *want* food. Why do people open restaurants? Because people *want* to eat out. Why are there so many fashion brands? Because people *want* fancy clothes. You cannot create *value* unless you make something people want.
+    Capital -- "Hiring, Outsourcing & Automation" --> Time
+    Capital -- "Healthcare, Nutirition & Lifestyle" --> Health
+    Capital -- "Events & Memberships" --> Network
 
-*What is value?* Consider the case of *the bread*. We know that people want bread. For it to be made, the farmer must first grow grains. Now grains by themselves are not as valuable. So the miller increases the value by converting them into flour. The baker then increases the value further by converting it into bread. The bread's value increases even more when it is packaged and distributed to every retail shop for us to have it at our convenience. Consider any product or service. By the time it reaches the end consumer, it has gone through a *value creation chain*, usually handled by different people at different steps.
+    Health -- "Energy, Focus & Productivity" --> Time
+    Health -- "Prodcutivity & Work Capacity" --> Capital
 
-In a specialized society like ours, you can't make most of the things you need for yourself. You need other people to provide you with that product or service. In order to get something from others, you must give them something in return. This is what we call *trade* or *value exchange*. Now, *barter* works fine as long as only two parties are involved. Suppose you are a tailor, and you want to get your house painted. You would stitch dresses for the painter, who in return would paint your house. But this is inefficient.
+    Reputation -- "Trust & Efficient Deals" --> Time
+    Reputation -- "Deals at Premium, Brand & Media" --> Capital
+    Reputation -- "Invitiations & Access to Premium Groups" --> Network
 
-*In a society with many painters, how would you find the painter who wants to get some dresses stitched?* Or *what if the painter wants to get dresses stitched but not this month, and you can't delay getting your house painted?* And *how would you solve multi-party value exchange?* For example, suppose the painter immediately needs vegetables, the vegetable vendor needs someone to educate his kids, the teacher wants to get dresses stitched, and the tailor *(you)* wants to get their home painted. This value exchange works only when everyone has found someone else who can provide them what they want and the loop closes at some point. *But why does one need to wait till the loop closes?*
+    Network -- "Help & Delegation" --> Time
+    Network -- "Partnerships & Deals" --> Capital
+    Network -- "Endorsements & Visibility" --> Reputation
 
-Hence, we invented *money*. You create value today and get paid in money. Tomorrow, when you want something, you can get it with the money you earned before. So, money is like *the proof of value creation*; it shows that you once created value in society, and now you want some value back when you spend it.
+    linkStyle 1,2,3,4,5,7,8,9,14 stroke:#cccccc,stroke-width:1px
+    linkStyle 0,6,10,11,12,13 stroke-width:1.5px
+```
 
-Every year people continue to create more and more value. Farmers create new crops every season, builders create homes that didn't exist before, new babies are born, new students enter school every year, doctors cure diseases that people never had before, new dresses appear on the market, new stories are written, new movies are made, etc. The existing money that people hold is the accumulation of all the value they had created by that time. So, to keep rewarding this value creation process, the government prints more money every single year and puts it into the economy. The job of the *reserve bank* is to ensure that they don't print more or less money than the value created.
+**Some Common Pitfalls**
 
-So, in an ideal scenario, people should have more money with each passing year. This means they can afford to consume more: buy more bread, get more dresses, own bigger houses, etc. But the supply of the majority of things is limited. A given area of land can produce only a certain amount of crops, only so many houses can be built on the land available, etc. So, to balance this rising consumption, the prices of goods and services must increase. And that's *inflation*.
+1. Getting into wrong groups, saying *yes* too often to people, ego-driven decisions, and picking up any other vice traits that erodes *reputation*. If this happens, the *capital* benefits shall stop and one might have to reluctantly depend more on *time-to-capital* conversion. 
 
-So, the more value we create in society, the more money the government has to put into the economy. This debunks a very popular myth: *if rich people had all the money, it left less for everyone else*. If you plan to start a startup, then whether you realize it or not, you're trying to disprove this fallacy.
 
-Lastly, *value* can be created without being sold. Scientists, till recently at least, effectively donated the wealth they created. We are all richer with the contributions made in medical science because we're all less likely to die from basic infections. We have access to the internet which has made the whole society wealthier than ever before 1990. No doubt billionaires put billions of dollars into AI, but now that we all have access to it, we are all wealthier with it than before 2022. Almost every server on the internet runs on Linux, which was developed by Linus Torvalds for free!
+#### Phase 4. The 50s
 
-### Problem With Jobs
+You have sufficient *capital*, *reputation* and *network*. Your objective here should be to transcend ownership: move from player to mentor. Help others play their own resource game better. Finally, preserve balance among all five and create a *self-feeding network*.
 
-After completing education, people in most countries join a company as an employee to earn money. A company is an institution that is creating value, and people picking up jobs in a company help it in its value creation attempts.
+**Ideal Play:** Interestingly, at this stage, your *time* now gets spent only on your *health* and *socializing*. By now, you should have completely eliminated the need to work for money. Your other resources and systems that you built before are enough to feed to your *capital*. You can now invest your capital to amplify the reputation you've built. This enhanced reputation would only reap benefits. You can also start taking advantage of your appearance, fitness and longevity at this age. 
 
-In a conventional setting, jobs don't make us rich. This is because of two issues.
 
-1.  Companies are not set up to reward people who work extremely hard. You can't go to your boss and say, *"I'd like to start working ten times as hard, so will you please pay me ten times as much?"* So, everyone works at their average potential and even when one attempts to work hard, the returns that the company makes eventually more or less average out to all employees. Also, most employees work in an interdependent manner. Even if the CEO wants to pay everyone proportionate to their work, there is no way we can measure the work contribution so accurately.
+```mermaid
+flowchart LR
+    Time -- "Rest, Sleep, Exercise & Recreational Activities" --> Health
+    Time -- "Socializing" --> Network
 
-2.  In a job, your inputs are very closely tied to your outputs, like professionals. Doctors, lawyers, accountants, teachers, and all other professionals wouldn't make money if they stopped providing their professional services. You simply can't earn non-linearly. Doctors get rich when they open a hospital which keeps working even in their absence, lawyers open law firms, accountants open accountancy firms, teachers would need to open schools/colleges, etc. But just providing services on an hour-by-hour basis would never make us rich because we have so few of them - just 24 in a day!
+    Capital -- "Hiring, Outsourcing & Automation" --> Time
+    Capital -- "Healthcare, Nutirition & Lifestyle" --> Health
+    Capital -- "PR, Marketing & Philanthropy" --> Reputation
+    Capital -- "Events & Memberships" --> Network
 
-Another drawback about a job is that, in the majority of jobs, people don't create enough value. They are being asked to do the bare minimum so that the machine keeps working. And since there is no high intellectual effort being made in a particular job, those people get the bare minimum to get things done because they are so easily replaceable. Most set roles can be taught, and if they can be taught, anyone else could replace you.
+    Health -- "Energy, Focus & Productivity" --> Time
+    Health -- "Appearance, Fitness & Vitality" --> Reputation
+    Health -- "Longevity" --> Network
 
-To be rich, you need to get yourself in a situation with two things, *measurement* and *leverage*[^2]. You need to be in a position where your performance can be measured, or there is no way to get paid more by doing more. And you have to have leverage, in the sense that the decisions you make have a big effect. An example of a job with both measurement and leverage would be a lead actor in a movie. Your performance can be measured in the gross earnings of the movie. And you have leverage in the sense that your performance can make or break it.
+    Reputation -- "Trust & Efficient Deals" --> Time
+    Reputation -- "Deals at Premium, Brand & Media" --> Capital
+    Reputation -- "Mental well-being & Inner peace" --> Health
+    Reputation -- "Invitiations & Access to Premium Groups" --> Network
 
-Other examples of people in similar situations are CEOs, media stars, hedge fund managers, and professional athletes. A good hint to the presence of leverage is the possibility of failure. Upside must be balanced by downside, so if there is big potential for gain there must also be a terrifying possibility of loss. CEOs, stars, fund managers, and athletes all live with the sword hanging over their heads; the moment they start to suck, they're out. If you're in a job that feels safe, you are not going to get rich, because if there is no danger there is almost certainly no leverage.
+    Network -- "Help & Delegation" --> Time
+    Network -- "Partnerships & Deals" --> Capital
+    Network -- "Endorsements & Visibility" --> Reputation
 
-Another problem that keeps people poor is that their lifestyle is very much connected with their monthly salary. When you do a job, you don't suddenly jump from earning ₹20 lakhs a year to ₹1 crore a year. That's a progression over a long career. And as that happens, one subtle problem is you upgrade your lifestyle as you make more and more money, and you stay in the *wage-slave trap*[^8]. The way you want to get rich is by keep working and working when you are poor and suddenly one day you get a big paycheck. This is again how startups work. You don't make money for years, and then you have a giant pay-day. 
+    linkStyle 0,1,2,3,5,6,9,10,12,13,14,15 stroke:#cccccc,stroke-width:1px
+    linkStyle 4,7,8,11 stroke-width:1.5px
+```
 
-### Measurement & Leverage
+**Some Common Pitfalls**
 
-To be able to measure the individual contributions, you must be a small team *(at max 10 people)*. ***Smallness = Measurement***. Remember that a startup is not merely ten people, but ten people like you or better than you who also want to work harder and get paid a lot more money than in a big company.  
+1. Clinging to control instead of empowering others. 
+2. Losing curiosity and neglecting societal changes. People tend to become too rigid and discard any kind of transformation. 
 
-Leverage comes by inventing new technology or technique. It's the way we all do things. And when you discover a new way to do things, its value is multiplied by all the people who use it. The leading edge of technology moves fast. Technology that's valuable today could be worthless in a couple of years. And one way to be in position of leverage is by solving *hard problems*. 
+We are now in a better state to understand the *win-condition* of this great game. 
 
-It's obvious that biotech or software startups exist to solve hard technical problems, but I think it will also be found to be true in businesses that don't seem to be about technology. McDonald's, for example, grew big by designing a system, the McDonald's franchise, that could then be reproduced at will all over the face of the earth. A McDonald's franchise is controlled by rules so precise that it is practically a piece of software. Write once, run everywhere. Ditto for Walmart. Sam Walton got rich not by being a retailer, but by designing a new kind of store.
+### The Win Condition
 
-Use difficulty as a guide not just in selecting the overall aim of your company, but also at decision points along the way. In startups, one thumb rule should be *run upstairs*[^2]. Suppose you are a little, nimble guy being chased by a big, fat, bully. You open a door and find yourself in a staircase. *Do you go up or down?* I say up. The bully can probably run downstairs as fast as you can. Going upstairs his bulk will be more of a disadvantage. Running upstairs is hard for you but even harder for him. 
+In any game, the *win condition* is defined as the specific, predefined objective that, when achieved, ends the game and designates a player or team as the winner. It's the ultimate goal that all strategy and tactics are directed toward. In chess, it's checkmating the opponent's king. In soccer, it's scoring more goals than the opponent by the end of the match. In monopoly, it's driving all other players into bankruptcy. 
 
-Paul Graham says, *"What this meant in practice was that we deliberately sought hard problems. If there were two features we could add to our software, both equally valuable in proportion to their difficulty, we'd always take the harder one. Not just because it was more valuable, but because it was harder. I can remember times when we were just exhausted after wrestling all day with some horrible technical problem. And I'd be delighted, because something that was hard for us would be impossible for our competitors."*
+In *The Great Game Of Life*, the win condition happens to be *to create a self-sustaining self-balancing self-feeding interconversion network of resources.* 
 
-Unfortunately there are a couple catches. One is that you can't choose the point on the curve that you want to inhabit. You can't decide, for example, that you'd like to work just two or three times as hard, and get paid that much more. When you're running a startup, your competitors decide how hard you work. And they pretty much all make the same decision: as hard as you possibly can.
+### Winning Strategies as Career Paths
 
-Paul continues, *"A startup is like a mosquito. A bear can absorb a hit and a crab is armored against one, but a mosquito is designed for one thing: to score. No energy is wasted on defense. The defense of mosquitos, as a species, is that there are a lot of them, but this is little consolation to the individual mosquito. Startups, like mosquitos, tend to be an all-or-nothing proposition. And you don't generally know which of the two you're going to get till the last minute. Viaweb came close to tanking several times. Our trajectory was like a sine wave. Fortunately we got bought at the top of the cycle, but it was damned close. While we were visiting Yahoo in California to talk about selling the company to them, we had to borrow a conference room to reassure an investor who was about to back out of a new round of funding that we needed to stay alive."*
+In reality, there are multiple strategies that let you achieve this *win condition*. Knowingly or unknowingly, when people opt for different career paths, what they are doing is picking up a strategy to get to the *win condition*. 
 
-I think it's a good idea to get bought, if you can. Running a business is different from growing one. How do you get bought? Mostly by doing the same things you'd do if you didn't intend to sell the company. Being profitable, for example. Potential buyers will always delay if they can. The hard part about getting bought is getting them to act. 
+#### The Athlete
 
-For most people, the most powerful motivator is not the hope of gain, but the fear of loss. For potential acquirers, the most powerful motivator is the prospect that one of their competitors will buy you. The second biggest is the worry that, if they don't buy you now, you'll continue to grow rapidly and will cost more to acquire later, or even become a competitor. In both cases, what it all comes down to is users. You'd think that a company about to buy you would do a lot of research and decide for themselves how valuable your technology was. Not at all. What they go by is the number of users you have. 
+At their core, athletes invest their *time* and whatever little *capital* they have into rigorous training, which directly builds their *health* and skill. This superior *health* and skill then produces winning performances, which builds their *reputation*. A strong *reputation* unlocks endorsements and deals, generating substantial *capital*. This *capital* is then used to preserve their most valuable asset: their *health*, through premium care, and to buy back *time* by hiring a support team. Simultaneously, their *reputation* grants them a wider *network* through media, which in turn attracts more sponsorships and *capital*, while their maintained *health* ensures long-term *time* to sustain this virtuous cycle.
 
-In a startup, you're not just trying to solve problems. You're trying to solve problems that users care about. A restaurant can afford to serve the occasional burnt dinner. But in technology, you cook one thing and that's what everyone eats. So any difference between what people want and what you deliver is multiplied. You please or annoy customers wholesale. The closer you can get to what they want, the more wealth you generate.
+```mermaid
+%%{init: {'themeVariables': { 'edgeLabelBackground':'white' }}}%%
+flowchart LR
+    Time -- "1. Training & Practice" --> Health
+
+    Capital -- "4. Premium Healthcare & Recovery" --> Health
+    Capital -- "5. Hire Team & Staff" --> Time
+
+    Health -- "2. Performance & Results" --> Reputation
+    Health -- "8. Longevity & Career Extension" --> Time
+    
+    Reputation -- "3. Endorsements & Deals" --> Capital
+    Reputation -- "6. Media & Public Appearances" --> Network
+
+    Network -- "7. Sponsorships & Partnerships" --> Capital
+```
+
+**Common Failure Mode**: Trading health recklessly for short-term fame or money. Once health crashes, the game ends prematurely. Others rely overly on their short career span between 18-35 years. They fail to leverage capital, network, & reputation to make a sustaining business or alternate *capital-earning plan*. 
+
+#### The Movie Star / The Celebrity
+
+The aspiring star invests their *time* in honing their acting prowess and auditioning for roles that would get them quick exposure. Their primary goal is to build *reputation* and once built, it becomes their breakthrough asset attracting major projects and endorsements that generate substantial capital. This capital is then used to aggressively expand their *network* and to protect their *reputation* through strategic PR. Simultaneously, their strong *network* provides them direct access to better opportunities which multiplies their *capital* and *reputation* further. Eventually, it's again the *reputation* that buys them the ultimate luxury: freedom of time and creative choice. 
+
+```mermaid
+%%{init: {'themeVariables': { 'edgeLabelBackground':'white' }}}%%
+flowchart LR
+    Time -- "1. Auditions & Valuable Projects" --> Reputation
+    Capital -- "2. PR & Marketing" --> Reputation
+
+    Reputation -- "3. Major Roles & Endorsements" --> Capital
+    Reputation -- "4. Media Presence & Access" --> Network
+    
+    Capital -- "5. Elite Events & Teams" --> Network
+    Capital -- "6. Lifestyle & Aesthetics" --> Health
+    
+    Network -- "7. Premium Opportunities" --> Capital
+    Network -- "8. Social Proof & Status" --> Reputation
+    
+    Reputation -- "9. Creative Freedom & Selectivity" --> Time
+```
+
+No wonder as *star kids* belong to wealthy families, they invest heavily in PR and networks very early on, because they understand how important *reputation* is in this profession. That's the unfair advantage they hold compared to an outsider!
+
+**Common Failure Mode**: Some celebrities focus too much on visibility that gives fame but not enough reputation. Putting themselves out in public means leading a risky life where one irresponsible act can tarnish their reputation in an instant. Others fail because they feel emotionally depleted from lack of private time or health neglect. 
+
+
+#### The Entrepreneur
+
+The Entrepreneur is one of the few full-spectrum players who try to convert *time* to all other resources at once. They invest all their time directly into building a venture, which simultaneously generates early *capital*, builds a specialized *network*, and lays the foundation for their *reputation*. This initial capital is immediately reinvested to fuel growth, and often *health* is neglected. Once they achieve scale and a liquidity event, they strategically pivot: they use their substantial *capital* to buy back their *time* through delegation and automation, and to repair and protect their *health*. Their hard-earned *reputation* and *network* then begin paying massive dividends, creating a powerful flywheel where trust and connections attract superior deals, talent, and opportunities, making the entire system almost autonomous considerably early and freeing them to focus on the next grand vision.
+
+```mermaid
+%%{init: {'themeVariables': { 'edgeLabelBackground':'white' }}}%%
+flowchart LR
+    Time -- "1.1 Build Venture" --> Capital
+    Time -- "1.2 Networking & Pitching" --> Network
+    Time -- "1.3 Deliver Results" --> Reputation
+    
+    Capital -- "2.1 Delegation & Automation" --> Time
+    Capital -- "2.2 Self-Care" --> Health
+    
+    Reputation -- "3.1 Trust & Brand Premium" --> Capital
+    Network -- "3.2 Deals & Opportunities" --> Capital
+    Network -- "3.3 Talent Access" --> Time
+    
+    Health -- "3.4 Energy & Stamina" --> Time
+    Reputation -- "4. Invitations" --> Network
+```
+
+**Common Failure Mode**: Apart from the business reasons, entrepreneurs fail when they treat their stamina as infinite, trade health and relationships for capital, and chase hype & reputation too early.  
 
 <br>
+In simple words, each career path banks on a different primary resource. The winning strategy often involves learning when to stop doubling down on your primary resource and start converting sideways to other resources. The trap is over-optimizing the fastest variable. Athletes overtrain, entrepreneurs overwork, movie stars over-chase reputation, etc. All lose the other slowly growing resources. 
 
-So, if the traditional path of a job is a not the route to wealth, *then what is?* Yes, your guess is right. The answer lies in learning to play ***The Great Game*** of business: a game with its own rules, strategies, and levels of proficiency. 
+## The Players
+
+We don't play *the great game* solo. There are so many other players playing with us, and we interact with many other players during our play. I feel all players can be majorly categorized into *four* kinds. 
+
+1. **The Pioneers**: These are the *explorers*. For example: entrepreneurs, athletes, movie stars, celebrities, CEOs, investors, etc. They take asymmetric bets, walk into uncharted terrains, and create maps & systems which others will use later. The risk is high, but so are rewards. They are famous for their problem-solving, systems-building, persuasion and pattern-recognition skills. 
+
+2. **The Followers**: These are the *specialists*. For example: corporate employees, managers, professional workers, etc. They prefer stability and progression on well-known terrains. The risk is low, and the rewards are linear. They are famous for their execution skills and depth of their craft. 
+
+3. **The Regulators**: These are the *rule-setters*. These are the politicians. They can change the physics mid-game (tax rules, policies, infrastructure). They can buff certain terrains (e.g. EV incentives, PLI schemes) or nerf others (e.g. regulations over alcohol, real-money gaming & so on).  
+
+4. **The Missionaries**: These are the *non-profits.* For example: Non-profit organizations, charity organizations, etc. They play to change terrain quality rather than earn points. Their mission is to improve the playing conditions for everyone. 
+
+## Final Takeaway
+
+*The Great Game of Life* is too vast and complex. We can talk for hours/days/perhaps months on the dynamics of resource interconversions, how players influence each other, the meta-mechanics *(invisible rules)* of the game, the optimal pathways to reach the *win condition*, and so on. 
+
+If we discuss ways to convert *time* to *capital*, we can go into the depths of various professions and career options that we have in the modern society. If we discuss, how to handle *capital* once we have it? And depending upon the amount of *capital* being talked about, we can go into various branches of *finance*. What should one do once they have a network? This brings us to the idea of *social skills*. How to build reputation? This will certainly touch the areas of *morality and ethics*. 
+
+The point I want to make here is, that even though our interest is to perhaps understand how to build *compounding high-leverage systems* and *how to get rich by amassing capital quickly*, this is the optimization of just the *time-to-capital* conversion link that forms a very small part of the entire game!
 
 
 
 
 
-[^1]: Paul Graham, [How People Get Rich Now](https://paulgraham.com/richnow.html), April 2021.
-[^2]: Paul Graham, [How To Make Wealth](https://paulgraham.com/wealth.html), May 2004.
-[^3]: Derek Muller (Veritasium), [What I Wish I Knew When I Was Younger](https://www.youtube.com/watch?v=YMPzDiraNnA), April 27, 2015.
-[^4]: Derek Muller (Veritasium), [Why Being Delusional is a Superpower](https://www.youtube.com/watch?v=3LopI4YeC4I), August 28, 2020.
-[^5]: Marc Andreessen, [Luck and the Entrepreneur: The four kinds of luck](https://pmarchive.com/luck_and_the_entrepreneur.html), August 14, 2007.
-[^6]: Aaron Levie, [Creating Unfair Advantages](https://www.linkedin.com/pulse/20121116164046-3855351-creating-unfair-advantages/), November 16, 2012.
-[^7]: Mike Maples Jr., [Finding Billion Dollar Secrets](https://blog.austinstartups.com/finding-billion-dollar-secrets-95fb2b6489fb#.5k70fv7i2), February 29, 2016.
-[^8]: Naval Ravikant, [How to Get Rich](https://www.youtube.com/watch?v=1-TZqOsVCNM), 25 December, 2019.
+[^1]: Derek Muller (Veritasium), [This liquid is too dangerous to transport](https://www.youtube.com/watch?v=onr80iOoEXs), September 21, 2025.

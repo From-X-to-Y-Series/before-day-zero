@@ -4,15 +4,6 @@ site_author: "Sagar Udasi"
 
 # site_url: <fill it later while hosting>
 
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-
-extra_css:
-  - css/extra.css
-  - css/pdf.css
-
 theme:
   name: material
 
@@ -33,26 +24,33 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.tracking
     - navigation.sections
     - navigation.path
     - navigation.indexes
     - navigation.footer
     - toc.follow
     - content.footnote.tooltips
-  
+
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - footnotes
   - tables
   - pymdownx.arithmatex:
       generic: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
   - attr_list
 
 plugins:
   - search
+
+extra_css:
+  - css/extra.css
+  - css/pdf.css
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
