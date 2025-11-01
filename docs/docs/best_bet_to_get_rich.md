@@ -1,4 +1,4 @@
-# The Beginning Of Great Things
+# The Best Bet To Become Rich 
 
 Let's assume you want to get rich. *How would you do it?* Perhaps the best way to answer is by understanding *how the rich got rich*. 
 
@@ -160,7 +160,7 @@ Another problem that keeps people poor is that their lifestyle is very much conn
 
 To be able to measure the individual contributions, you must be a small team *(at max 10 people)*. ***Smallness = Measurement***. Remember that a startup is not merely ten people, but ten people like you or better than you who also want to work harder and get paid a lot more money than in a big company.  
 
-Leverage comes by inventing new technology or technique. It's the way we all do things. And when you discover a new way to do things, its value is multiplied by all the people who use it. The leading edge of technology moves fast. Technology that's valuable today could be worthless in a couple of years. And one way to be in position of leverage is by solving *hard problems*. 
+Leverage comes by inventing new technology or technique. ***Technology = Leverage***. It's the way we all do things. And when you discover a new way to do things, its value is multiplied by all the people who use it. The leading edge of technology moves fast. Technology that's valuable today could be worthless in a couple of years. And one way to be in position of leverage is by solving *hard problems*. 
 
 It's obvious that biotech or software startups exist to solve hard technical problems, but I think it will also be found to be true in businesses that don't seem to be about technology. McDonald's, for example, grew big by designing a system, the McDonald's franchise, that could then be reproduced at will all over the face of the earth. A McDonald's franchise is controlled by rules so precise that it is practically a piece of software. Write once, run everywhere. Ditto for Walmart. Sam Walton got rich not by being a retailer, but by designing a new kind of store.
 
@@ -178,11 +178,28 @@ For most people, the most powerful motivator is not the hope of gain, but the fe
 
 In a startup, you're not just trying to solve problems. You're trying to solve problems that users care about. A restaurant can afford to serve the occasional burnt dinner. But in technology, you cook one thing and that's what everyone eats. So any difference between what people want and what you deliver is multiplied. You please or annoy customers wholesale. The closer you can get to what they want, the more wealth you generate.
 
+## How To *Startup*?
+
+I do believe in some preparation before starting up, kind of *doing the homework*. This preparation shall hopefully stop us from making *obvious* mistakes. Inspired from the gamified analogy from the last essay, I suggest that we do our homework in *four* stages/sections. 
+
+### 01. Understanding The Terrains on The Map 
+
+We will start by building a detailed map of the landscape. This involves understanding the economic engine of the country; the aspirations, trends, and frustrations of its people across sectors; how much do people earn, where do they spend, how the money flows, who has the power, etc. We will try to identify major trends and timing, looking for the *tailwinds* created by technological, demographic, and policy shifts. We'll try to look for *whitespaces* and probable opportunities by asking a simple question: *why are things still done in such a stupid way?* The answer would often be *"legacy"* and hence, we will look more in the *legacy areas*. 
+
+### 02. Understanding The Game Rules
+
+We will distill the essential advice from proven builders like Paul Graham, Naval Ravikant, Peter Thiel, etc., and reports from firms like YC Combinator, Blume Ventures, McKinsey & other consulting reports, etc. In this section, we would try to absorb startup fundamentals and develop an entrepreneurial mindset. 
+
+### 03. Understanding The Gameplay
+
+Once we know the rules, we must also learn *how to play*. This section will only talk about the *execution* of the core value-creation functions: *product development*, *engineering*, *sales*, *marketing* and *customer support*. We will also give a slight attention to enabling functions like *finance* and *HR*. 
+
+### 04. Developing Your Playbook
+
+In this section, we will bring everything together. We'll start with the most important player: *you*. Then, we'll move from the idea you can't stop thinking about, to testing its core assumptions, and finally, to crafting a concrete business and action plan. This is about building your company, your way.
+
 <br>
-
-So, if the traditional path of a job is a not the route to wealth, *then what is?* Yes, your guess is right. The answer lies in learning to play ***The Great Game*** of business: a game with its own rules, strategies, and levels of proficiency. 
-
-
+I believe this multi-layered preparation should give us ***The Unfair Advantage of Preparation***.
 
 
 
