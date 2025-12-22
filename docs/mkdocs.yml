@@ -1,4 +1,4 @@
-site_name: "Before Day Zero"
+site_name: "BEFORE DAY ZERO"
 site_description: "A founder's guide to startup preparation"
 site_author: "Sagar Udasi"
 
@@ -39,6 +39,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
   - footnotes
   - tables
   - pymdownx.arithmatex:
@@ -53,5 +55,18 @@ extra_css:
   - css/pdf.css
 
 extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
+
+
+nav:
+  - The Great Game of Life: index.md
+  - The Best Bet To Become Rich: best_bet_to_get_rich.md
+  - Section 01. The Map:
+    - "01. The Economic Engine":
+      - Demographics, Income Distribution & GDP Structure: section01/chapter01/01_demo_gdp_income.md
+      - Macro Indicators: section01/chapter01/02_macro_indicators.md
+    # - "02. The People Matrix":
+    # - "03. The Sectoral Map":
+    # - "04. Trends, Timing & Tailwinds":
